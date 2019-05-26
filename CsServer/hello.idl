@@ -1,0 +1,8 @@
+module HelloCorba
+{
+   	interface Greetings
+    {
+		string hello( in string sendMsg);
+    };
+
+};
